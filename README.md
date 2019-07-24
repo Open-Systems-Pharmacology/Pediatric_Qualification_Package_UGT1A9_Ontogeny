@@ -1,12 +1,12 @@
 # Pediatric Qualification Package for UGT1A9 Ontogeny
 
-In this repository the electronic package for qualification of UGT1A1 ontogeny using in vivo probe substances are stored, including
+In this repository the electronic package for qualification of UGT1A9 ontogeny using in vivo probe substances are stored, including
 
 - Input files (qualification plan, report text modules and observed data)
 - Qualification Report
   
 
-For the Qualification of the UGT1A1 mediated elimination of compounds, the following probe substance was included:
+For the Qualification of the UGT1A9 mediated elimination of compounds, the following probe substance was included:
 
 - Propofol [[1](#reference)]
 
