@@ -1,4 +1,4 @@
-﻿{
+{
     "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.1/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
@@ -345,13 +345,6 @@
                             },
                             {
                                 "Project": "Propofol-Pediatrics",
-                                "Simulation": "Kataria-1994_202",
-                                "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5347
-                            },
-                            {
-                                "Project": "Propofol-Pediatrics",
                                 "Simulation": "Kataria-1994_21",
                                 "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
@@ -608,13 +601,6 @@
                                 "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5346
-                            },
-                            {
-                                "Project": "Propofol-Pediatrics",
-                                "Simulation": "Kataria-1994_202",
-                                "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5347
                             },
                             {
                                 "Project": "Propofol-Pediatrics",
