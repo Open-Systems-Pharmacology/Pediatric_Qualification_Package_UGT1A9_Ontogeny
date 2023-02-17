@@ -152,7 +152,7 @@ createQualificationReport <- function(qualificationRunnerFolder,
   #' Run the `QualificatitonWorklfow`
    #workflow$plotPKRatio$settings$units$<PK parameter name> <- <PK parameter unit>
    #workflow$plotPKRatio$settings$units$C_max <- "ng/mL"
-   workflow$plotPKRatio$settings$units$AUC <- "µg*min/mL"
+   workflow$plotPKRatio$settings$units$AUC <- "Âµg*min/mL"
    workflow$runWorkflow()
   
 
