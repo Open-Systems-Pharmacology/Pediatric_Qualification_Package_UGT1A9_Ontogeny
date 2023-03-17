@@ -1,14 +1,9 @@
 {
-    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.1/OSP_Qualification_Plan_Schema.json",
+    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.0/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
             "Id": "Propofol",
             "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Propofol-Model/master/Propofol.json",
-            "BuildingBlocks": []
-        },
-        {
-            "Id": "Propofol-Pediatrics",
-            "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Propofol-Pediatrics/main/Propofol-Pediatrics.json",
             "BuildingBlocks": [
                 {
                     "Type": "Compound",
@@ -16,18 +11,18 @@
                     "Project": "Propofol"
                 }
             ]
+        },
+        {
+            "Id": "Propofol-Pediatrics",
+            "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Propofol-Pediatrics/main/Propofol-Pediatrics.json",
+            "BuildingBlocks": []
         }
     ],
     "ObservedDataSets": [
         {
             "Id": "PK-Parameter",
-            "Path": "https://raw.githubusercontent.com/Incei/Database-for-observed-data/master/Pediatrics.csv",
+            "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Database-for-observed-data/master/Pediatrics.csv",
             "Type": "PKRatio"
-        }
-    ],
-    "Intro": [
-        {
-            "Path": "Content/titlepage.md"
         }
     ],
     "Plots": {
@@ -144,112 +139,112 @@
             {
                 "Project": "Propofol-Pediatrics",
                 "Simulation": "Kataria-1994_10",
-                "SectionId": 32
+                "SectionReference": "ct-profiles-model-evaluation"
             },
             {
                 "Project": "Propofol-Pediatrics",
                 "Simulation": "Kataria-1994_11",
-                "SectionId": 32
+                "SectionReference": "ct-profiles-model-evaluation"
             },
             {
                 "Project": "Propofol-Pediatrics",
                 "Simulation": "Kataria-1994_12",
-                "SectionId": 32
+                "SectionReference": "ct-profiles-model-evaluation"
             },
             {
                 "Project": "Propofol-Pediatrics",
                 "Simulation": "Kataria-1994_13",
-                "SectionId": 32
+                "SectionReference": "ct-profiles-model-evaluation"
             },
             {
                 "Project": "Propofol-Pediatrics",
                 "Simulation": "Kataria-1994_14",
-                "SectionId": 32
+                "SectionReference": "ct-profiles-model-evaluation"
             },
             {
                 "Project": "Propofol-Pediatrics",
                 "Simulation": "Kataria-1994_15",
-                "SectionId": 32
+                "SectionReference": "ct-profiles-model-evaluation"
             },
             {
                 "Project": "Propofol-Pediatrics",
                 "Simulation": "Kataria-1994_16",
-                "SectionId": 32
+                "SectionReference": "ct-profiles-model-evaluation"
             },
             {
                 "Project": "Propofol-Pediatrics",
                 "Simulation": "Kataria-1994_20",
-                "SectionId": 32
+                "SectionReference": "ct-profiles-model-evaluation"
             },
             {
                 "Project": "Propofol-Pediatrics",
                 "Simulation": "Kataria-1994_202",
-                "SectionId": 32
+                "SectionReference": "ct-profiles-model-evaluation"
             },
             {
                 "Project": "Propofol-Pediatrics",
                 "Simulation": "Kataria-1994_21",
-                "SectionId": 32
+                "SectionReference": "ct-profiles-model-evaluation"
             },
             {
                 "Project": "Propofol-Pediatrics",
                 "Simulation": "Kataria-1994_22",
-                "SectionId": 32
+                "SectionReference": "ct-profiles-model-evaluation"
             },
             {
                 "Project": "Propofol-Pediatrics",
                 "Simulation": "Kataria-1994_23",
-                "SectionId": 32
+                "SectionReference": "ct-profiles-model-evaluation"
             },
             {
                 "Project": "Propofol-Pediatrics",
                 "Simulation": "Kataria-1994_24",
-                "SectionId": 32
+                "SectionReference": "ct-profiles-model-evaluation"
             },
             {
                 "Project": "Propofol-Pediatrics",
                 "Simulation": "Kataria-1994_25",
-                "SectionId": 32
+                "SectionReference": "ct-profiles-model-evaluation"
             },
             {
                 "Project": "Propofol-Pediatrics",
                 "Simulation": "Kataria-1994_26",
-                "SectionId": 32
+                "SectionReference": "ct-profiles-model-evaluation"
             },
             {
                 "Project": "Propofol-Pediatrics",
                 "Simulation": "Kataria-1994_30",
-                "SectionId": 32
+                "SectionReference": "ct-profiles-model-evaluation"
             },
             {
                 "Project": "Propofol-Pediatrics",
                 "Simulation": "Kataria-1994_31",
-                "SectionId": 32
+                "SectionReference": "ct-profiles-model-evaluation"
             },
             {
                 "Project": "Propofol-Pediatrics",
                 "Simulation": "Kataria-1994_32",
-                "SectionId": 32
+                "SectionReference": "ct-profiles-model-evaluation"
             },
             {
                 "Project": "Propofol-Pediatrics",
                 "Simulation": "Kataria-1994_34",
-                "SectionId": 32
+                "SectionReference": "ct-profiles-model-evaluation"
             },
             {
                 "Project": "Propofol-Pediatrics",
                 "Simulation": "Kataria-1994_35",
-                "SectionId": 32
+                "SectionReference": "ct-profiles-model-evaluation"
             },
             {
                 "Project": "Propofol-Pediatrics",
                 "Simulation": "Kataria-1994_36",
-                "SectionId": 32
+                "SectionReference": "ct-profiles-model-evaluation"
             },
             {
                 "Project": "Propofol-Pediatrics",
                 "Simulation": "Kataria-1994_37",
-                "SectionId": 32
+                "SectionReference": "ct-profiles-model-evaluation"
             }
         ],
         "GOFMergedPlots": [],
@@ -257,268 +252,9 @@
         "DDIRatioPlots": [],
         "PKRatioPlots": [
             {
-                "Title": "Overall predictivity of the PBPK model. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of all drugs in children 8 days to 10 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.",
-                "PKParameter": "AUC",
-                "SectionId": 3,
-                "Groups": [
-                    {
-                        "Color": "#000000",
-                        "Caption": "Allegaert 2007",
-                        "Symbol": "Circle",
-                        "PKRatios": [
-                            {
-                                "Project": "Propofol-Pediatrics",
-                                "Simulation": "Allegaert_2007_17 days",
-                                "Output": "Organism|ArterialBlood|Propofol|Whole Blood",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5337
-                            },
-                            {
-                                "Project": "Propofol-Pediatrics",
-                                "Simulation": "Allegaert_2007_8 days",
-                                "Output": "Organism|ArterialBlood|Propofol|Whole Blood",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5338
-                            }
-                        ]
-                    },
-                    {
-                        "Color": "#FF0000",
-                        "Caption": "Kataria 1994",
-                        "Symbol": "Cross",
-                        "PKRatios": [
-                            {
-                                "Project": "Propofol-Pediatrics",
-                                "Simulation": "Kataria-1994_10",
-                                "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5339
-                            },
-                            {
-                                "Project": "Propofol-Pediatrics",
-                                "Simulation": "Kataria-1994_11",
-                                "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5340
-                            },
-                            {
-                                "Project": "Propofol-Pediatrics",
-                                "Simulation": "Kataria-1994_12",
-                                "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5341
-                            },
-                            {
-                                "Project": "Propofol-Pediatrics",
-                                "Simulation": "Kataria-1994_13",
-                                "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5342
-                            },
-                            {
-                                "Project": "Propofol-Pediatrics",
-                                "Simulation": "Kataria-1994_14",
-                                "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5343
-                            },
-                            {
-                                "Project": "Propofol-Pediatrics",
-                                "Simulation": "Kataria-1994_15",
-                                "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5344
-                            },
-                            {
-                                "Project": "Propofol-Pediatrics",
-                                "Simulation": "Kataria-1994_16",
-                                "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5345
-                            },
-                            {
-                                "Project": "Propofol-Pediatrics",
-                                "Simulation": "Kataria-1994_20",
-                                "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5346
-                            },
-                            {
-                                "Project": "Propofol-Pediatrics",
-                                "Simulation": "Kataria-1994_21",
-                                "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5348
-                            },
-                            {
-                                "Project": "Propofol-Pediatrics",
-                                "Simulation": "Kataria-1994_22",
-                                "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5349
-                            },
-                            {
-                                "Project": "Propofol-Pediatrics",
-                                "Simulation": "Kataria-1994_23",
-                                "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5350
-                            },
-                            {
-                                "Project": "Propofol-Pediatrics",
-                                "Simulation": "Kataria-1994_24",
-                                "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5351
-                            },
-                            {
-                                "Project": "Propofol-Pediatrics",
-                                "Simulation": "Kataria-1994_25",
-                                "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5352
-                            },
-                            {
-                                "Project": "Propofol-Pediatrics",
-                                "Simulation": "Kataria-1994_26",
-                                "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5353
-                            },
-                            {
-                                "Project": "Propofol-Pediatrics",
-                                "Simulation": "Kataria-1994_30",
-                                "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5354
-                            },
-                            {
-                                "Project": "Propofol-Pediatrics",
-                                "Simulation": "Kataria-1994_31",
-                                "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5355
-                            },
-                            {
-                                "Project": "Propofol-Pediatrics",
-                                "Simulation": "Kataria-1994_32",
-                                "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5356
-                            },
-                            {
-                                "Project": "Propofol-Pediatrics",
-                                "Simulation": "Kataria-1994_34",
-                                "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5357
-                            },
-                            {
-                                "Project": "Propofol-Pediatrics",
-                                "Simulation": "Kataria-1994_35",
-                                "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5358
-                            },
-                            {
-                                "Project": "Propofol-Pediatrics",
-                                "Simulation": "Kataria-1994_36",
-                                "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5359
-                            },
-                            {
-                                "Project": "Propofol-Pediatrics",
-                                "Simulation": "Kataria-1994_37",
-                                "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5360
-                            }
-                        ]
-                    },
-                    {
-                        "Color": "#0000ff",
-                        "Caption": "Saint-Maurice 1989",
-                        "Symbol": "Square",
-                        "PKRatios": [
-                            {
-                                "Project": "Propofol-Pediatrics",
-                                "Simulation": "Saint-Maurice 1989 ind.1",
-                                "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5362
-                            },
-                            {
-                                "Project": "Propofol-Pediatrics",
-                                "Simulation": "Saint-Maurice 1989 ind.2",
-                                "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5363
-                            },
-                            {
-                                "Project": "Propofol-Pediatrics",
-                                "Simulation": "Saint-Maurice 1989 ind.3",
-                                "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5364
-                            },
-                            {
-                                "Project": "Propofol-Pediatrics",
-                                "Simulation": "Saint-Maurice 1989 ind.4",
-                                "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5365
-                            },
-                            {
-                                "Project": "Propofol-Pediatrics",
-                                "Simulation": "Saint-Maurice 1989 ind.5",
-                                "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5366
-                            },
-                            {
-                                "Project": "Propofol-Pediatrics",
-                                "Simulation": "Saint-Maurice 1989 ind.6",
-                                "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5367
-                            },
-                            {
-                                "Project": "Propofol-Pediatrics",
-                                "Simulation": "Saint-Maurice 1989 ind.7",
-                                "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5368
-                            },
-                            {
-                                "Project": "Propofol-Pediatrics",
-                                "Simulation": "Saint-Maurice 1989 ind.8",
-                                "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5369
-                            },
-                            {
-                                "Project": "Propofol-Pediatrics",
-                                "Simulation": "Saint-Maurice 1989 ind.9",
-                                "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5370
-                            },
-                            {
-                                "Project": "Propofol-Pediatrics",
-                                "Simulation": "Saint-Maurice 1989 ind.10",
-                                "Output": "Organism|PeripheralVenousBlood|Propofol|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "PK-Parameter",
-                                "ObservedDataRecordId": 5434
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
                 "Title": "Overall predictivity of the propofol PBPK model. Open circles represent mean ratios of PBPK predicted AUC over observed AUC of propofol in children 8 days to 10 years old. Blue dashed lines and red dotted lines represent the 1.5-fold and 2-fold error, respectively.",
-                "PKParameter": "AUC",
-                "SectionId": 31,
+                "PKParameters": ["AUC"],
+                "SectionReference": "Propofol_children",
                 "Groups": [
                     {
                         "Color": "#000000",
@@ -776,35 +512,40 @@
             }
         ]
     },
-    "Inputs": [],
     "Sections": [
         {
-            "Id": 2,
-            "Title": "1 Introduction to Pediatric Translation",
+            "Reference": "Introduction",
+            "Title": "Introduction to Pediatric Translation",
             "Content": "Content/Introduction.md"
         },
         {
-            "Id": 3,
-            "Title": "2 Pediatric translation qualification",
+            "Reference": "Results",
+            "Title": "Pediatric translation qualification",
             "Content": "Content/Translation.md",
             "Sections": [
                 {
-                    "Id": 31,
+                    "Reference": "Propofol_children",
                     "Content": "Content/Propofol_children.md",
-                    "Title": "2.1 Propofol PK Ratio tables and Figures"
+                    "Title": "Propofol PK Ratio tables and Figures"
                 },
                 {
-                    "Id": 32,
+                    "Reference": "ct-profiles-model-evaluation",
                     "Content": "Content/Concentration_time_profiles_children.md",
-                    "Title": "2.2 Propofol Concentration-Time profiles in Children"
+                    "Title": "Propofol Concentration-Time profiles in Children"
                 }
             ]
         },
         {
-            "Id": 5,
-            "Title": "3 References",
+            "Reference": "references",
+            "Title": "References",
             "Content": "Content/References.md",
             "Sections": []
+        }
+    ],
+    "Inputs": [],
+    "Intro": [
+        {
+            "Path": "Content/titlepage.md"
         }
     ]
 }
